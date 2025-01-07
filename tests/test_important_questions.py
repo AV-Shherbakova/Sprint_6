@@ -2,7 +2,7 @@ import pytest
 from selenium import webdriver
 
 from conftest import *
-from page_objects.important_questions import ImportantQuestions
+from page_objects.home_page import HomePage
 
 
 class TestImportantQuestions:
@@ -28,8 +28,8 @@ class TestImportantQuestions:
     )
     def test_check_answer_text(self, index, text):
         self.driver.get(BASE_URL)
-        questions_page = ImportantQuestions(self.driver)
-        panel_text = questions_page.click_element_and_return_hidden(index)
+        home_page = HomePage(self.driver)
+        panel_text = home_page.click_question_and_return_text(index)
         assert panel_text == text
 
     @classmethod
