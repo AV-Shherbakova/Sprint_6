@@ -24,3 +24,6 @@ class HomePage:
         scroll_to_element(self.driver, order_button)
         time.sleep(0.05)
         order_button.click()
+
+    def click_zen_button(self):
+        self.driver.find_element(*LOGO_YANDEX_BUTTON).click()

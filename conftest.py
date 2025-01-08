@@ -1,6 +1,7 @@
 import random
 
 BASE_URL = 'https://qa-scooter.praktikum-services.ru/'
+ZEN_URL = 'https://dzen.ru/?yredirect=true'
 
 QUESTION_ANSWER_1 = "Сутки — 400 рублей. Оплата курьеру — наличными или картой."
 QUESTION_ANSWER_2 = "Пока что у нас так: один заказ — один самокат. Если хотите покататься с друзьями, можете просто сделать несколько заказов — один за другим."
