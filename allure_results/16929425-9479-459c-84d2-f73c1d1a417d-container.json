@@ -1,1 +1,13 @@
-{"uuid": "abe1dd2c-7103-4a48-b79e-55a737783bd0", "befores": [{"name": "name", "status": "passed", "start": 1736328647695, "stop": 1736328647695}], "start": 1736328647695, "stop": 1736328652961}
+{
+  "uuid": "abe1dd2c-7103-4a48-b79e-55a737783bd0",
+  "befores": [
+    {
+      "name": "name",
+      "status": "passed",
+      "start": 1736328647695,
+      "stop": 1736328647695
+    }
+  ],
+  "start": 1736328647695,
+  "stop": 1736328652961
+}

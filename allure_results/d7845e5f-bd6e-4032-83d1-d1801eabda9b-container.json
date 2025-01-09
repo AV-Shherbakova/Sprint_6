@@ -1,1 +1,27 @@
-{"uuid": "05dbd3f2-4555-4903-9954-b137e0556253", "children": ["ceb750b6-a25b-4c8d-8c53-5aa3d40e6c50", "40953cbe-c07e-48af-b0da-9c46c472c311", "b8a82a67-af21-46ee-8ba5-8b1b4e5c1a86", "cf246093-f2eb-4c3f-885a-215080797edf"], "befores": [{"name": "_xunit_setup_class_fixture_TestOrders", "status": "passed", "start": 1736328960452, "stop": 1736328962235}], "afters": [{"name": "_xunit_setup_class_fixture_TestOrders::0", "status": "passed", "start": 1736328984296, "stop": 1736328984700}], "start": 1736328960452, "stop": 1736328984700}
+{
+  "uuid": "05dbd3f2-4555-4903-9954-b137e0556253",
+  "children": [
+    "ceb750b6-a25b-4c8d-8c53-5aa3d40e6c50",
+    "40953cbe-c07e-48af-b0da-9c46c472c311",
+    "b8a82a67-af21-46ee-8ba5-8b1b4e5c1a86",
+    "cf246093-f2eb-4c3f-885a-215080797edf"
+  ],
+  "befores": [
+    {
+      "name": "_xunit_setup_class_fixture_TestOrders",
+      "status": "passed",
+      "start": 1736328960452,
+      "stop": 1736328962235
+    }
+  ],
+  "afters": [
+    {
+      "name": "_xunit_setup_class_fixture_TestOrders::0",
+      "status": "passed",
+      "start": 1736328984296,
+      "stop": 1736328984700
+    }
+  ],
+  "start": 1736328960452,
+  "stop": 1736328984700
+}

@@ -1,1 +1,27 @@
-{"uuid": "6cb58cbc-1b87-4259-8b67-0ef84b8db628", "children": ["cd6f98ed-6f84-446a-a152-76dab548e2ec", "6cbdb2ae-f688-45c6-b547-2dc124a47e8d", "eff2d24f-cafb-4da3-909c-41030ae03713", "862993b6-76ab-42b7-a666-d6fc23596eb9", "32c1570e-f3e4-4ba3-94f9-b28a287998cb", "808fc35b-89e7-4652-ba84-d30601dd273b", "667a72d9-c8a9-40fd-b8b4-c1161b60a186", "12cb5237-2b74-45a1-b6dc-b9fb21d32a9e"], "befores": [{"name": "_xunit_setup_class_fixture_TestImportantQuestions", "status": "broken", "statusDetails": {"message": "TypeError: unsupported callable\n", "trace": "  File \"/opt/homebrew/lib/python3.13/site-packages/pluggy/_callers.py\", line 167, in _multicall\n    teardown.throw(outcome._exception)\n    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/homebrew/lib/python3.13/site-packages/_pytest/setuponly.py\", line 36, in pytest_fixture_setup\n    return (yield)\n            ^^^^^\n  File \"/opt/homebrew/lib/python3.13/site-packages/pluggy/_callers.py\", line 103, in _multicall\n    res = hook_impl.function(*args)\n  File \"/opt/homebrew/lib/python3.13/site-packages/_pytest/fixtures.py\", line 1140, in pytest_fixture_setup\n    result = call_fixture_func(fixturefunc, request, kwargs)\n  File \"/opt/homebrew/lib/python3.13/site-packages/_pytest/fixtures.py\", line 891, in call_fixture_func\n    fixture_result = next(generator)\n  File \"/opt/homebrew/lib/python3.13/site-packages/_pytest/python.py\", line 787, in xunit_setup_class_fixture\n    _call_with_optional_argument(func, cls)\n    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^\n  File \"/opt/homebrew/lib/python3.13/site-packages/_pytest/python.py\", line 717, in _call_with_optional_argument\n    func()\n    ~~~~^^\n  File \"/opt/homebrew/lib/python3.13/site-packages/allure_commons/_allure.py\", line 189, in impl\n    params = func_parameters(func, *a, **kw)\n  File \"/opt/homebrew/lib/python3.13/site-packages/allure_commons/utils.py\", line 231, in func_parameters\n    arg_spec = inspect.getfullargspec(func)\n  File \"/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/inspect.py\", line 1372, in getfullargspec\n    raise TypeError('unsupported callable') from ex\n"}, "start": 1736328723820, "stop": 1736328723820}], "start": 1736328723820, "stop": 1736328724110}
+{
+  "uuid": "6cb58cbc-1b87-4259-8b67-0ef84b8db628",
+  "children": [
+    "cd6f98ed-6f84-446a-a152-76dab548e2ec",
+    "6cbdb2ae-f688-45c6-b547-2dc124a47e8d",
+    "eff2d24f-cafb-4da3-909c-41030ae03713",
+    "862993b6-76ab-42b7-a666-d6fc23596eb9",
+    "32c1570e-f3e4-4ba3-94f9-b28a287998cb",
+    "808fc35b-89e7-4652-ba84-d30601dd273b",
+    "667a72d9-c8a9-40fd-b8b4-c1161b60a186",
+    "12cb5237-2b74-45a1-b6dc-b9fb21d32a9e"
+  ],
+  "befores": [
+    {
+      "name": "_xunit_setup_class_fixture_TestImportantQuestions",
+      "status": "broken",
+      "statusDetails": {
+        "message": "TypeError: unsupported callable\n",
+        "trace": "  File \"/opt/homebrew/lib/python3.13/site-packages/pluggy/_callers.py\", line 167, in _multicall\n    teardown.throw(outcome._exception)\n    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/homebrew/lib/python3.13/site-packages/_pytest/setuponly.py\", line 36, in pytest_fixture_setup\n    return (yield)\n            ^^^^^\n  File \"/opt/homebrew/lib/python3.13/site-packages/pluggy/_callers.py\", line 103, in _multicall\n    res = hook_impl.function(*args)\n  File \"/opt/homebrew/lib/python3.13/site-packages/_pytest/fixtures.py\", line 1140, in pytest_fixture_setup\n    result = call_fixture_func(fixturefunc, request, kwargs)\n  File \"/opt/homebrew/lib/python3.13/site-packages/_pytest/fixtures.py\", line 891, in call_fixture_func\n    fixture_result = next(generator)\n  File \"/opt/homebrew/lib/python3.13/site-packages/_pytest/python.py\", line 787, in xunit_setup_class_fixture\n    _call_with_optional_argument(func, cls)\n    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^\n  File \"/opt/homebrew/lib/python3.13/site-packages/_pytest/python.py\", line 717, in _call_with_optional_argument\n    func()\n    ~~~~^^\n  File \"/opt/homebrew/lib/python3.13/site-packages/allure_commons/_allure.py\", line 189, in impl\n    params = func_parameters(func, *a, **kw)\n  File \"/opt/homebrew/lib/python3.13/site-packages/allure_commons/utils.py\", line 231, in func_parameters\n    arg_spec = inspect.getfullargspec(func)\n  File \"/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/inspect.py\", line 1372, in getfullargspec\n    raise TypeError('unsupported callable') from ex\n"
+      },
+      "start": 1736328723820,
+      "stop": 1736328723820
+    }
+  ],
+  "start": 1736328723820,
+  "stop": 1736328724110
+}

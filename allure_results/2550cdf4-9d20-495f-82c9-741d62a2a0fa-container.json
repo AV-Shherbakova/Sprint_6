@@ -1,1 +1,13 @@
-{"uuid": "fba1439d-08a9-4a7c-8e12-350d691f6821", "befores": [{"name": "text", "status": "passed", "start": 1736328877794, "stop": 1736328877794}], "start": 1736328877794, "stop": 1736328878116}
+{
+  "uuid": "fba1439d-08a9-4a7c-8e12-350d691f6821",
+  "befores": [
+    {
+      "name": "text",
+      "status": "passed",
+      "start": 1736328877794,
+      "stop": 1736328877794
+    }
+  ],
+  "start": 1736328877794,
+  "stop": 1736328878116
+}

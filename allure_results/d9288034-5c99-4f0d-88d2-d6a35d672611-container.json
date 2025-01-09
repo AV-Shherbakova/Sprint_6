@@ -1,1 +1,13 @@
-{"uuid": "ec06c474-d88c-433d-9a1e-25f693ebe72b", "befores": [{"name": "locator", "status": "passed", "start": 1736328979045, "stop": 1736328979045}], "start": 1736328979045, "stop": 1736328984295}
+{
+  "uuid": "ec06c474-d88c-433d-9a1e-25f693ebe72b",
+  "befores": [
+    {
+      "name": "locator",
+      "status": "passed",
+      "start": 1736328979045,
+      "stop": 1736328979045
+    }
+  ],
+  "start": 1736328979045,
+  "stop": 1736328984295
+}

@@ -1,1 +1,31 @@
-{"uuid": "0c459c4b-373d-4c93-85c3-326ff6a6aea1", "children": ["f6bf8c65-d3ee-4c02-a7b1-ae52c548af13", "83750db5-5322-4e0d-a927-4a26ee5785a8", "b59e9009-1102-4077-a2c7-8cb0f83942c9", "b8b0cfc3-0de2-49fb-83f7-3e3f999cbd1b", "00055415-82c7-4047-964d-1fb1eb56556d", "5e558a8c-176f-4f93-81cb-cbff84d93444", "1ea0c6b4-c1a8-4b08-87d4-7eb9c98f53cf", "b07c32d9-fc50-4a0c-bd24-09ba034b6893"], "befores": [{"name": "_xunit_setup_class_fixture_TestImportantQuestions", "status": "passed", "start": 1736328872784, "stop": 1736328875425}], "afters": [{"name": "_xunit_setup_class_fixture_TestImportantQuestions::0", "status": "passed", "start": 1736328879063, "stop": 1736328879586}], "start": 1736328872784, "stop": 1736328879586}
+{
+  "uuid": "0c459c4b-373d-4c93-85c3-326ff6a6aea1",
+  "children": [
+    "f6bf8c65-d3ee-4c02-a7b1-ae52c548af13",
+    "83750db5-5322-4e0d-a927-4a26ee5785a8",
+    "b59e9009-1102-4077-a2c7-8cb0f83942c9",
+    "b8b0cfc3-0de2-49fb-83f7-3e3f999cbd1b",
+    "00055415-82c7-4047-964d-1fb1eb56556d",
+    "5e558a8c-176f-4f93-81cb-cbff84d93444",
+    "1ea0c6b4-c1a8-4b08-87d4-7eb9c98f53cf",
+    "b07c32d9-fc50-4a0c-bd24-09ba034b6893"
+  ],
+  "befores": [
+    {
+      "name": "_xunit_setup_class_fixture_TestImportantQuestions",
+      "status": "passed",
+      "start": 1736328872784,
+      "stop": 1736328875425
+    }
+  ],
+  "afters": [
+    {
+      "name": "_xunit_setup_class_fixture_TestImportantQuestions::0",
+      "status": "passed",
+      "start": 1736328879063,
+      "stop": 1736328879586
+    }
+  ],
+  "start": 1736328872784,
+  "stop": 1736328879586
+}

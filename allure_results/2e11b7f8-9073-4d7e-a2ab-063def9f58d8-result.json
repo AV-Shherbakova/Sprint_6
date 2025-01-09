@@ -1,1 +1,44 @@
-{"name": "test_redirect_home", "status": "passed", "start": 1736328655204, "stop": 1736328657347, "uuid": "252e1bc1-1a96-4734-a4dd-120fa8a03c8e", "historyId": "a073b120b5f164dea3bb463020b6abe7", "testCaseId": "a073b120b5f164dea3bb463020b6abe7", "fullName": "tests.test_redirect.TestRedirect#test_redirect_home", "labels": [{"name": "parentSuite", "value": "tests"}, {"name": "suite", "value": "test_redirect"}, {"name": "subSuite", "value": "TestRedirect"}, {"name": "host", "value": "MacBook-Pro-Mac.local"}, {"name": "thread", "value": "30355-MainThread"}, {"name": "framework", "value": "pytest"}, {"name": "language", "value": "cpython3"}, {"name": "package", "value": "tests.test_redirect"}]}
+{
+  "name": "test_redirect_home",
+  "status": "passed",
+  "start": 1736328655204,
+  "stop": 1736328657347,
+  "uuid": "252e1bc1-1a96-4734-a4dd-120fa8a03c8e",
+  "historyId": "a073b120b5f164dea3bb463020b6abe7",
+  "testCaseId": "a073b120b5f164dea3bb463020b6abe7",
+  "fullName": "tests.test_redirect.TestRedirect#test_redirect_home",
+  "labels": [
+    {
+      "name": "parentSuite",
+      "value": "tests"
+    },
+    {
+      "name": "suite",
+      "value": "test_redirect"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestRedirect"
+    },
+    {
+      "name": "host",
+      "value": "MacBook-Pro-Mac.local"
+    },
+    {
+      "name": "thread",
+      "value": "30355-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "tests.test_redirect"
+    }
+  ]
+}

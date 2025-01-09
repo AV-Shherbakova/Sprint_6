@@ -1,1 +1,25 @@
-{"uuid": "1f1fbe47-c6f6-40a6-9254-f2a3e55782ec", "children": ["a87afab5-4222-4971-a76d-9e7d3647fb4c", "026b3007-24b2-43dc-91fb-efef04e7f8fc"], "befores": [{"name": "_xunit_setup_class_fixture_TestRedirect", "status": "passed", "start": 1736328904287, "stop": 1736328906422}], "afters": [{"name": "_xunit_setup_class_fixture_TestRedirect::0", "status": "passed", "start": 1736328909536, "stop": 1736328910034}], "start": 1736328904287, "stop": 1736328910034}
+{
+  "uuid": "1f1fbe47-c6f6-40a6-9254-f2a3e55782ec",
+  "children": [
+    "a87afab5-4222-4971-a76d-9e7d3647fb4c",
+    "026b3007-24b2-43dc-91fb-efef04e7f8fc"
+  ],
+  "befores": [
+    {
+      "name": "_xunit_setup_class_fixture_TestRedirect",
+      "status": "passed",
+      "start": 1736328904287,
+      "stop": 1736328906422
+    }
+  ],
+  "afters": [
+    {
+      "name": "_xunit_setup_class_fixture_TestRedirect::0",
+      "status": "passed",
+      "start": 1736328909536,
+      "stop": 1736328910034
+    }
+  ],
+  "start": 1736328904287,
+  "stop": 1736328910034
+}

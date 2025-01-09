@@ -1,23 +1,10 @@
-import random
-
-BASE_URL = 'https://qa-scooter.praktikum-services.ru/'
-ZEN_URL = 'https://dzen.ru/?yredirect=true'
-
-QUESTION_ANSWER_1 = "Сутки — 400 рублей. Оплата курьеру — наличными или картой."
-QUESTION_ANSWER_2 = "Пока что у нас так: один заказ — один самокат. Если хотите покататься с друзьями, можете просто сделать несколько заказов — один за другим."
-QUESTION_ANSWER_3 = "Допустим, вы оформляете заказ на 8 мая. Мы привозим самокат 8 мая в течение дня. Отсчёт времени аренды начинается с момента, когда вы оплатите заказ курьеру. Если мы привезли самокат 8 мая в 20:30, суточная аренда закончится 9 мая в 20:30."
-QUESTION_ANSWER_4 = "Только начиная с завтрашнего дня. Но скоро станем расторопнее."
-QUESTION_ANSWER_5 = "Пока что нет! Но если что-то срочное — всегда можно позвонить в поддержку по красивому номеру 1010."
-QUESTION_ANSWER_6 = "Самокат приезжает к вам с полной зарядкой. Этого хватает на восемь суток — даже если будете кататься без передышек и во сне. Зарядка не понадобится."
-QUESTION_ANSWER_7 = "Да, пока самокат не привезли. Штрафа не будет, объяснительной записки тоже не попросим. Все же свои."
-QUESTION_ANSWER_8 = "Да, обязательно. Всем самокатов! И Москве, и Московской области."
+import pytest
+from selenium import webdriver
 
 
-# вернём рандомное число не меньше ноля, но не больше длины списка
-def get_index_from_list(items):
-    max_number = len(items) - 1
-    return random.randint(0, max_number)
-
-
-def scroll_to_element(driver, element):
-    driver.execute_script("arguments[0].scrollIntoView();", element)
+@pytest.fixture
+def driver():
+    driver = webdriver.Firefox()
+    driver.maximize_window()
+    yield driver
+    driver.quit()

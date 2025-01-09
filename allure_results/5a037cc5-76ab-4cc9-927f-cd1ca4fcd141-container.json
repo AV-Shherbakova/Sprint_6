@@ -1,1 +1,27 @@
-{"uuid": "f983ac62-a82d-48c7-b034-ae7ddd61c35f", "children": ["c3b00cea-8ff0-4287-b208-c2e6ebd9a78a", "e1e8d4b0-e8f3-484b-98a5-7a4b215c59cb", "782cf650-8b90-4ed8-bc14-f137695871d0", "7a07a71b-40af-4f11-ac48-4ae4e109e1dc"], "befores": [{"name": "_xunit_setup_class_fixture_TestOrders", "status": "passed", "start": 1736328879587, "stop": 1736328881435}], "afters": [{"name": "_xunit_setup_class_fixture_TestOrders::0", "status": "passed", "start": 1736328903866, "stop": 1736328904286}], "start": 1736328879587, "stop": 1736328904286}
+{
+  "uuid": "f983ac62-a82d-48c7-b034-ae7ddd61c35f",
+  "children": [
+    "c3b00cea-8ff0-4287-b208-c2e6ebd9a78a",
+    "e1e8d4b0-e8f3-484b-98a5-7a4b215c59cb",
+    "782cf650-8b90-4ed8-bc14-f137695871d0",
+    "7a07a71b-40af-4f11-ac48-4ae4e109e1dc"
+  ],
+  "befores": [
+    {
+      "name": "_xunit_setup_class_fixture_TestOrders",
+      "status": "passed",
+      "start": 1736328879587,
+      "stop": 1736328881435
+    }
+  ],
+  "afters": [
+    {
+      "name": "_xunit_setup_class_fixture_TestOrders::0",
+      "status": "passed",
+      "start": 1736328903866,
+      "stop": 1736328904286
+    }
+  ],
+  "start": 1736328879587,
+  "stop": 1736328904286
+}
