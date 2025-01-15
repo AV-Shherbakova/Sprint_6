@@ -1,0 +1,13 @@
+{
+  "uuid": "fb61b592-7c48-49f6-a38e-df5e84efdb90",
+  "befores": [
+    {
+      "name": "phone",
+      "status": "passed",
+      "start": 1736328881436,
+      "stop": 1736328881436
+    }
+  ],
+  "start": 1736328881436,
+  "stop": 1736328888013
+}

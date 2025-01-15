@@ -1,0 +1,66 @@
+{
+  "name": "test_order[\\u041b\\u044e\\u0434\\u043c\\u0438\\u043b\\u0430-\\u0420\\u0443\\u0441\\u043b\\u0430\\u043d\\u043e\\u0432\\u0430-\\u0443\\u043b. \\u041b\\u0435\\u0440\\u043c\\u043e\\u043d\\u0442\\u043e\\u0432\\u0430, \\u0434\\u043e\\u043c 12-+79998888888-locator1]",
+  "status": "passed",
+  "parameters": [
+    {
+      "name": "name",
+      "value": "'Людмила'"
+    },
+    {
+      "name": "surname",
+      "value": "'Русланова'"
+    },
+    {
+      "name": "address",
+      "value": "'ул. Лермонтова, дом 12'"
+    },
+    {
+      "name": "phone",
+      "value": "'+79998888888'"
+    },
+    {
+      "name": "locator",
+      "value": "['class name', 'Home_FinishButton__1_cWm']"
+    }
+  ],
+  "start": 1736328637138,
+  "stop": 1736328642453,
+  "uuid": "eb017d87-7cec-4320-91fb-13e7a5cdf984",
+  "historyId": "0d1224a7e1508edbe8d148b1d65eff84",
+  "testCaseId": "688f633f768da3948e6b307799605cf4",
+  "fullName": "tests.test_order.TestOrders#test_order",
+  "labels": [
+    {
+      "name": "parentSuite",
+      "value": "tests"
+    },
+    {
+      "name": "suite",
+      "value": "test_order"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestOrders"
+    },
+    {
+      "name": "host",
+      "value": "MacBook-Pro-Mac.local"
+    },
+    {
+      "name": "thread",
+      "value": "30355-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "tests.test_order"
+    }
+  ]
+}

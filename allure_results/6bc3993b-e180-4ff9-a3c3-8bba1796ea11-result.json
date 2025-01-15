@@ -1,0 +1,44 @@
+{
+  "name": "test_redirect_zen",
+  "status": "passed",
+  "start": 1736328988556,
+  "stop": 1736328989634,
+  "uuid": "166c5323-bcc3-4ae6-b022-cc763d23a292",
+  "historyId": "990443ac2819384bc8a5823be89db7bf",
+  "testCaseId": "990443ac2819384bc8a5823be89db7bf",
+  "fullName": "tests.test_redirect.TestRedirect#test_redirect_zen",
+  "labels": [
+    {
+      "name": "parentSuite",
+      "value": "tests"
+    },
+    {
+      "name": "suite",
+      "value": "test_redirect"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestRedirect"
+    },
+    {
+      "name": "host",
+      "value": "MacBook-Pro-Mac.local"
+    },
+    {
+      "name": "thread",
+      "value": "30936-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "tests.test_redirect"
+    }
+  ]
+}

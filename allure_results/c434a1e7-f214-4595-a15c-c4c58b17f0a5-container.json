@@ -1,0 +1,13 @@
+{
+  "uuid": "65e23546-8cbc-431a-8211-d24cc14c6feb",
+  "befores": [
+    {
+      "name": "locator",
+      "status": "passed",
+      "start": 1736328968592,
+      "stop": 1736328968592
+    }
+  ],
+  "start": 1736328968592,
+  "stop": 1736328973837
+}

@@ -1,0 +1,54 @@
+{
+  "name": "test_check_answer_text[7-\\u0414\\u0430, \\u043e\\u0431\\u044f\\u0437\\u0430\\u0442\\u0435\\u043b\\u044c\\u043d\\u043e. \\u0412\\u0441\\u0435\\u043c \\u0441\\u0430\\u043c\\u043e\\u043a\\u0430\\u0442\\u043e\\u0432! \\u0418 \\u041c\\u043e\\u0441\\u043a\\u0432\\u0435, \\u0438 \\u041c\\u043e\\u0441\\u043a\\u043e\\u0432\\u0441\\u043a\\u043e\\u0439 \\u043e\\u0431\\u043b\\u0430\\u0441\\u0442\\u0438.]",
+  "status": "passed",
+  "parameters": [
+    {
+      "name": "index",
+      "value": "7"
+    },
+    {
+      "name": "text",
+      "value": "'Да, обязательно. Всем самокатов! И Москве, и Московской области.'"
+    }
+  ],
+  "start": 1736328959606,
+  "stop": 1736328959922,
+  "uuid": "d83c909c-02a3-48c9-8ca8-a515d93c6a83",
+  "historyId": "3579f9cd274110fee0de12fb2722578b",
+  "testCaseId": "966f32812e32d4e9fe31a777b6e32908",
+  "fullName": "tests.test_important_questions.TestImportantQuestions#test_check_answer_text",
+  "labels": [
+    {
+      "name": "parentSuite",
+      "value": "tests"
+    },
+    {
+      "name": "suite",
+      "value": "test_important_questions"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestImportantQuestions"
+    },
+    {
+      "name": "host",
+      "value": "MacBook-Pro-Mac.local"
+    },
+    {
+      "name": "thread",
+      "value": "30936-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "tests.test_important_questions"
+    }
+  ]
+}

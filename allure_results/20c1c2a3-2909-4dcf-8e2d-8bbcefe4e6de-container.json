@@ -1,0 +1,39 @@
+{
+  "uuid": "04ddde85-5c56-48ec-aedc-8a44f703cb5f",
+  "children": [
+    "784c3e6c-a756-49a7-8933-d76e1239bb70",
+    "f1bd070e-8c36-4aba-8c3f-12b27c5715c0",
+    "b2498a25-f6e8-46ac-8e2f-2e9de8b41850",
+    "4b48e8e7-cdf3-4cfd-ad36-967caf45d340",
+    "7fc612d6-a2fd-4d0a-a6a2-96ca5779a9c8",
+    "bedaba99-35d5-4cfe-a628-3b329e01e4c1",
+    "0e4c790b-29e6-47f5-9748-42a936e08082",
+    "ed6f04a2-a59b-4d09-b10b-5ce61d308958"
+  ],
+  "befores": [
+    {
+      "name": "_xunit_setup_class_fixture_TestImportantQuestions",
+      "status": "broken",
+      "statusDetails": {
+        "message": "TypeError: TestImportantQuestions.setup_class() missing 1 required positional argument: 'cls'\n",
+        "trace": "  File \"/opt/homebrew/lib/python3.13/site-packages/pluggy/_callers.py\", line 167, in _multicall\n    teardown.throw(outcome._exception)\n    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/homebrew/lib/python3.13/site-packages/_pytest/setuponly.py\", line 36, in pytest_fixture_setup\n    return (yield)\n            ^^^^^\n  File \"/opt/homebrew/lib/python3.13/site-packages/pluggy/_callers.py\", line 103, in _multicall\n    res = hook_impl.function(*args)\n  File \"/opt/homebrew/lib/python3.13/site-packages/_pytest/fixtures.py\", line 1140, in pytest_fixture_setup\n    result = call_fixture_func(fixturefunc, request, kwargs)\n  File \"/opt/homebrew/lib/python3.13/site-packages/_pytest/fixtures.py\", line 891, in call_fixture_func\n    fixture_result = next(generator)\n  File \"/opt/homebrew/lib/python3.13/site-packages/_pytest/python.py\", line 787, in xunit_setup_class_fixture\n    _call_with_optional_argument(func, cls)\n    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^\n  File \"/opt/homebrew/lib/python3.13/site-packages/_pytest/python.py\", line 717, in _call_with_optional_argument\n    func()\n    ~~~~^^\n  File \"/opt/homebrew/lib/python3.13/site-packages/allure_commons/_allure.py\", line 192, in impl\n    return func(*a, **kw)\n"
+      },
+      "steps": [
+        {
+          "name": "Открываем браузер",
+          "status": "broken",
+          "statusDetails": {
+            "message": "TypeError: TestImportantQuestions.setup_class() missing 1 required positional argument: 'cls'\n",
+            "trace": "  File \"/opt/homebrew/lib/python3.13/site-packages/allure_commons/_allure.py\", line 192, in impl\n    return func(*a, **kw)\n"
+          },
+          "start": 1736328627697,
+          "stop": 1736328627697
+        }
+      ],
+      "start": 1736328627697,
+      "stop": 1736328627697
+    }
+  ],
+  "start": 1736328627697,
+  "stop": 1736328627712
+}
